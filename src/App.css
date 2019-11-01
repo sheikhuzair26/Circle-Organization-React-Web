@@ -7,7 +7,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-image: url("./Assets/Images/bodyback.jpeg");
+  background-image: url("./Assets/Images/bodyback.jpeg") !important;
 
   background-attachment: fixed;
   background-position: center;
