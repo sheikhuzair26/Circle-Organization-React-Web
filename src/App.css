@@ -53,3 +53,34 @@ body {
   transition: background 0.8s ease;
   font-family: "Copse", serif;
 }
+
+
+@media screen and (max-width: 425px) {
+  body {
+    -moz-background-size: auto;
+    -webkit-background-size: auto;
+    /* background-attachment: scroll; */
+    background-position: top;
+    background-size: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    -moz-background-size: auto;
+    -webkit-background-size: auto;
+    /* background-attachment: scroll; */
+    background-position: top;
+    background-size: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    -moz-background-size: auto;
+    -webkit-background-size: auto;
+    /* background-attachment: scroll; */
+    background-position: top;
+    background-size: auto;
+  }
+}
