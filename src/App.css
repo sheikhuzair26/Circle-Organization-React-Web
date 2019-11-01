@@ -61,7 +61,7 @@ body {
     -webkit-background-size: auto;
     /* background-attachment: scroll; */
     background-position: top;
-    background-size: auto;
+/*     background-size: auto; */
   }
 }
 
@@ -71,7 +71,7 @@ body {
     -webkit-background-size: auto;
     /* background-attachment: scroll; */
     background-position: top;
-    background-size: auto;
+/*     background-size: auto; */
   }
 }
 
@@ -81,6 +81,6 @@ body {
     -webkit-background-size: auto;
     /* background-attachment: scroll; */
     background-position: top;
-    background-size: auto;
+/*     background-size: auto; */
   }
 }
