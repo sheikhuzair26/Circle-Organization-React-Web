@@ -1,0 +1,73 @@
+.Container {
+  background: white;
+  opacity: 0.7;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-tech-karo,
+.ui-content {
+  padding: 0em 6em;
+}
+
+.Container p,
+.uit {
+  font-size: 20px;
+}
+
+.ui-content {
+  margin: 7em 0em 0em 0em;
+}
+
+.slider-section {
+  background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+  opacity: 0.8;
+  height: 100vh;
+}
+
+@media screen and (max-width: 425px) {
+  .about-tech-karo,
+  .ui-content {
+    padding: 0em 4em;
+  }
+
+  .Container p,
+  .uit {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .slider-section {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about-tech-karo,
+  .ui-content {
+    padding: 0em 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .slider-section {
+    height: 62vh;
+  }
+}
+@media screen and (max-width: 320px) {
+  h1{
+    font-size: 27px;
+  }
+  
+  .ui-content {
+    margin: 4em 0em 0em 0em;
+}
+.Container p, .uit {
+  font-size: 17px;
+  font-weight: 500;
+}
+}
+

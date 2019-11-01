@@ -1,0 +1,48 @@
+.Footer {
+  background: linear-gradient(
+    to bottom,
+    #a1ffce,
+    #faffd1
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4em;
+  /* font-family: 'Shadows Into Light', cursive; */
+  font-family: "Kaushan Script", cursive;
+}
+
+.Footer:hover .fa-heart {
+  color: red;
+}
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-google-plus-g {
+  font-size: 23px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .designBy {
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .fa-facebook-f,
+  .fa-instagram,
+  .fa-twitter,
+  .fa-google-plus-g {
+    font-size: 16px;
+    padding: 0px 4px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .designBy {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,112 @@
+.carousel.slide {
+  display: flex;
+  padding: 5em 7em 1em 7em;
+  height: 42vh;
+  align-items: flex-start;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 125%;
+  bottom: 0px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -310px;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+#slideImg {
+  height: 80vh;
+}
+
+@media screen and (max-width: 786px) {
+  .carousel.slide {
+    display: flex;
+    padding: 5em 1em 1em 1em;
+    height: 42vh;
+    width: 100vw;
+    align-items: flex-start;
+  }
+
+  #slideImg {
+    height: 60vh;
+  }
+
+  .carousel-indicators {
+    bottom: -180px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 108%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #slideImg {
+    height: 45vh;
+  }
+
+  .carousel.slide {
+    padding: 3em 1em 0em 1em;
+  }
+
+  .carousel-indicators {
+    bottom: -80px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 50%;
+  }
+  .parallaxOne {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #slideImg {
+    height: 43vh;
+  }
+
+  .carousel-indicators {
+    bottom: -65px;
+  }
+  .parallaxOne {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #slideImg {
+    height: 40vh;
+  }
+
+  .carousel-indicators {
+    bottom: -50px;
+  }
+
+  .parallaxOne {
+    height: 80vh;
+  }
+}

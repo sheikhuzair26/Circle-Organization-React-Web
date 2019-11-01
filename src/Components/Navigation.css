@@ -1,0 +1,153 @@
+.nav-area {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.nav-area .hamburger-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+.nav-area .nav-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  padding: 16px;
+  background: #21252926;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-area .nav-icon > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease;
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: green;
+}
+
+.nav-area .nav-icon > div:before,
+.nav-area .nav-icon > div:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -8px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+.nav-area .nav-icon > div:after {
+  top: 8px;
+}
+
+.nav-area .hamburger-menu:checked + .nav-icon > div {
+  transform: rotate(135deg);
+}
+
+.nav-area .hamburger-menu:checked + .nav-icon > div:before,
+.nav-area .hamburger-menu:checked + .nav-icon > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.nav-area .hamburger-menu:hover + .nav-icon > div {
+  transform: rotate(225deg);
+}
+
+.nav-area .hamburger-menu:checked ~ .main-menu {
+  visibility: visible;
+}
+
+.nav-area .hamburger-menu:checked ~ .main-menu > div {
+  transform: scale(1);
+  transition-duration: 0.8s;
+}
+
+.nav-area .hamburger-menu:checked ~ .main-menu > div > div {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.nav-area .main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  /* overflow: hidden; */
+  overflow: scroll;
+}
+
+.nav-area .main-menu > div {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transition: 0.5s ease;
+  background: rgba(0, 0, 0, 0.8);
+  /* border-radius: 50%; */
+  width: 100%;
+  height: 200vh;
+}
+
+.nav-area .main-menu > div > div {
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opactity 0.5s ease;
+}
+.nav-area .main-menu > div > div > ul > .nav-li {
+  list-style: none;
+  color: #f04540;
+  font-size: 24px;
+  padding: 16px;
+  text-align: center;
+  transition: 0.6s ease;
+  transition-delay: 0.2s;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+ul > .nav-li:hover {
+  background: #f7f0f0;
+  border-radius: 30%;
+}
+
+.nav-area .main-menu > div > div > ul > .nav-li > a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.5s ease;
+  font-family: "Kaushan Script", cursive;
+}
+
+@media screen and (max-width: 375px) {
+  .nav-area .main-menu > div > div > ul > .nav-li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav-area .main-menu > div > div > ul > .nav-li {
+    font-size: 18px;
+  }
+}

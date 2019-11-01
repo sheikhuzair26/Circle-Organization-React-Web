@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px 8px 30px;
+  transition: top 0.2s ease-in-out;
+  /* background: #f7f0f0; */
+  /* background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background-image: url("../Assets/Images/rainbow.jpg"); */
+}
+
+.she {
+  height: 78px;
+  width: 10%;
+}
+
+.sheLovesLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-logo {
+  height: 90px;
+}
+
+i.fas.fa-bars {
+  font-size: 30px;
+  color: rgb(47, 151, 47);
+}
+
+
+@media screen and (max-width:786px) {
+
+}

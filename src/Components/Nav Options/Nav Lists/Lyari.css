@@ -1,0 +1,63 @@
+.container-main {
+  background: #9796f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #fbc7d4,
+    #9796f0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #fbc7d4,
+    #9796f0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100vh;
+  opacity: 0.6;
+  padding: 5em 7em;
+}
+
+p.Lyari-para,
+.lyari-li {
+  color: black;
+  font-size: 23px;
+}
+
+.container-main ul {
+  padding-top: 1em;
+}
+
+.Lyari-head {
+  color: #ef3b36;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-main {
+    height: unset;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container-main {
+    height: unset;
+    padding: 5em 3em;
+  }
+
+  p.Lyari-para,
+  .lyari-li {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container-main {
+    height: unset;
+    padding: 5em 3em;
+  }
+
+  p.Lyari-para,
+  .lyari-li {
+    font-size: 16px;
+  }
+}
