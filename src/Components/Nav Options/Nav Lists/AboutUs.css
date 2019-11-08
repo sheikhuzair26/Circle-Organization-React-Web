@@ -90,7 +90,7 @@ h3.rating-tag {
   color: brown;
 }
 p#ratingNumb {
-  font-size: 22px;
+  font-size: 21px;
 }
 
 @media screen and (max-width: 425px) {

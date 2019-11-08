@@ -16,16 +16,19 @@ class Home extends Component {
     return (
       <div>
         <div class="parallaxOne">
-          <Header />
-          <Navigation />
-          <Slider />
+          
+            <Header />
+            <Navigation />
+            <Slider />
+          
         </div>
         <div class="parallaxTwo">
-          <SectionMainContent />
+            <SectionMainContent />
         </div>
         <div className="parallaxThree">
           <TweetSection />
         </div>
+
         <MainFooter />
       </div>
     );

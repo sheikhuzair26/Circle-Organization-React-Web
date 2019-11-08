@@ -1,11 +1,8 @@
 import "./App.css";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Components/Header";
-import Slider from "./Components/Slider";
-import SectionMainContent from "./Components/SectionMainContent";
-import Navigation from "./Components/Navigation";
-import TweetSection from "./Components/TweetSection";
-import MainFooter from "./Components/MainFooter";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./Components/Home";
 import Global from "./Components/Nav Options/Global";
@@ -71,7 +68,6 @@ class App extends Component {
             <Route path="/SltJourney">
               <SltJourney />
             </Route>
-
           </Switch>
         </div>
       </Router>

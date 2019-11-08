@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./DropDowns.css";
 import PropType from "prop-types";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +19,8 @@ class DropDowns extends Component {
 
   render() {
     return (
+      <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+
       <div className="container-passing-props">
         {this.props.ListOne ? (
           <li className="dropdown-list">
@@ -48,6 +52,7 @@ class DropDowns extends Component {
           <li></li>
         )}
       </div>
+      </ScrollAnimation>
     );
   }
 }

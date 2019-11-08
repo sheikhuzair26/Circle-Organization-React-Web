@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
 import SlideOne from "../Assets/Images/girls.jpg";
@@ -18,58 +20,60 @@ class Slider extends Component {
   render() {
     return (
       <div>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              id="slideImg"
-              className="d-block w-100"
-              src={SlideSix}
-              alt="Six slide"
-            />
-          </Carousel.Item>
+        <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+          <Carousel>
+            <Carousel.Item>
+              <img
+                id="slideImg"
+                className="d-block w-100"
+                src={SlideSix}
+                alt="Six slide"
+              />
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              id="slideImg"
-              className="d-block w-100"
-              src={SlideOne}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              id="slideImg"
-              className="d-block w-100"
-              src={SlideTwo}
-              alt="Third slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              id="slideImg"
-              className="d-block w-100"
-              src={SlideThree}
-              alt="Third slide"
-            />
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                id="slideImg"
+                className="d-block w-100"
+                src={SlideOne}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                id="slideImg"
+                className="d-block w-100"
+                src={SlideTwo}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                id="slideImg"
+                className="d-block w-100"
+                src={SlideThree}
+                alt="Third slide"
+              />
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              id="slideImg"
-              className="d-block w-100"
-              src={SlideFour}
-              alt="Four slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              id="slideImg"
-              className="d-block w-100"
-              src={SlideFive}
-              alt="Five slide"
-            />
-          </Carousel.Item>
-        </Carousel>
+            <Carousel.Item>
+              <img
+                id="slideImg"
+                className="d-block w-100"
+                src={SlideFour}
+                alt="Four slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                id="slideImg"
+                className="d-block w-100"
+                src={SlideFive}
+                alt="Five slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+        </ScrollAnimation>
       </div>
     );
   }
