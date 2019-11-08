@@ -33,7 +33,7 @@ class DropDowns extends Component {
           <li></li>
         )}
         {this.props.ListThree ? (
-          <li className="dropdown-list">{this.props.ListThree}</li>
+          <li className="dropdown-list"> <Link to={this.props.ListThreeURL}>{this.props.ListThree}</Link></li>
         ) : (
           <li></li>
         )}

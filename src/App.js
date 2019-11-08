@@ -19,6 +19,8 @@ import Engage from "./Components/Nav Options/Engage";
 import React, { Component } from "react";
 import AboutTechKaro from "./Components/Nav Options/Nav Lists/AboutTechKaro";
 import Lyari from "./Components/Nav Options/Nav Lists/Lyari";
+import AboutUs from "./Components/Nav Options/Nav Lists/AboutUs";
+import SltJourney from "./Components/Nav Options/Nav Lists/SltJourney";
 
 class App extends Component {
   render() {
@@ -61,6 +63,15 @@ class App extends Component {
             <Route path="/Lyari">
               <Lyari />
             </Route>
+            {/* SheLovesTech */}
+            <Route path="/AboutUs">
+              <AboutUs />
+            </Route>
+            {/* SLT Journey */}
+            <Route path="/SltJourney">
+              <SltJourney />
+            </Route>
+
           </Switch>
         </div>
       </Router>
