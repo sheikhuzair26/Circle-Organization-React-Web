@@ -7,5 +7,5 @@
   transition: background 0.8s ease;
   height: 100vh;
   align-items: center;
-  /* padding: 6em 0em 0em 0em; */
+  font-family: "Kaushan Script", cursive !important;
 }

@@ -4,14 +4,13 @@
     #a1ffce,
     #faffd1
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 4em;
   /* font-family: 'Shadows Into Light', cursive; */
-  font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script", cursive !important;
 }
 
 .Footer:hover .fa-heart {
