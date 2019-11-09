@@ -8,6 +8,11 @@
   text-align: center;
 }
 
+h3.rating-tag, p.rating {
+    font-size: 21px;
+    text-align: center;
+}
+
 .about-tech-karo,
 .ui-content {
   padding: 0em 6em;
