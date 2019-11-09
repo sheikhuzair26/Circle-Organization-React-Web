@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "./Navigation.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "animate.css/animate.min.css";
-import ScrollAnimation from "react-animate-on-scroll";
 
 class Navigation extends Component {
   constructor(props) {
@@ -52,7 +50,6 @@ class Navigation extends Component {
             </div>
           </div>
         </div>
-        {/* </ScrollAnimation> */}
       </div>
     );
   }

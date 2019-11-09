@@ -7,6 +7,9 @@
   flex-direction: column;
   text-align: center;
 }
+.Container h1{
+  text-align: start;
+}
 
 h3.rating-tag, p.rating {
     font-size: 21px;
@@ -18,11 +21,11 @@ h3.rating-tag, p.rating {
   padding: 0em 6em;
 }
 
-.Container p,
-.uit {
-  font-size: 20px;
+.Container p, .uit {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 15px 0px;
 }
-
 .ui-content {
   margin: 7em 0em 0em 0em;
 }
