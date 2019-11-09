@@ -12,7 +12,7 @@
 .AboutSection {
   background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
   opacity: 0.8;
-  height: 100vh;
+  height: 120vh;
 }
 
 .about-content {
@@ -95,7 +95,7 @@ p#ratingNumb {
 
 @media screen and (max-width: 425px) {
   .AboutSection {
-    height: 70vh;
+    height: 80vh;
     padding-top: 1em;
   }
   .countDown {
@@ -134,8 +134,18 @@ p#ratingNumb {
     font-size: 45px;
   }
 }
+@media screen and (max-width: 375px) {
+  .AboutSection {
+    height: 80vh;
+    padding-top: 1em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .AboutSection {
+    height: 80vh;
+    padding-top: 1em;
+  }
 
-@media screen and (max-width: 330px) {
   .about-content p {
     font-size: 16px;
     font-weight: 600;

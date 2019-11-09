@@ -9,11 +9,16 @@ import SltphotoOne from "../../../Assets/Images/sltgroup2.jpg";
 import mainCover from "../../../Assets/Images/colourfull.jpg";
 import Award from "../../../Assets/Images/award.jpg";
 import Rating from "../Nav Lists/RatingsComponent";
+import Header from "../../Header";
+import Navigation from "../../Navigation";
 
 const SltJourney = () => {
   return (
     <div className="main-sec">
       <div className="JourneySection">
+      <Header />
+      <Navigation />
+
         <ScrollAnimation animateIn=" slideInUp">
           <div className="content">
             <h1 className="journey-head">OUR JOURNEY</h1>

@@ -1,4 +1,4 @@
-.container-main {
+.LyariMain {
   background: #9796f0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
@@ -10,10 +10,12 @@
     #fbc7d4,
     #9796f0
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   height: 100vh;
   opacity: 0.6;
-  padding: 5em 7em;
+}
+
+.container-main {
+  padding: 0em 7em 5em 7em;
 }
 
 p.Lyari-para,
@@ -28,19 +30,22 @@ p.Lyari-para,
 
 .Lyari-head {
   color: #ef3b36;
+  padding-top: 0.5em;
 }
 
 @media screen and (max-width: 1024px) {
-  .container-main {
+  .LyariMain {
     height: unset;
     font-weight: 500;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .container-main {
+  .LyariMain {
     height: unset;
-    padding: 5em 3em;
+  }
+  .container-main {
+    padding: 1em 3em 2em 3em;
   }
 
   p.Lyari-para,
@@ -51,9 +56,12 @@ p.Lyari-para,
 }
 
 @media screen and (max-width: 320px) {
-  .container-main {
+  .LyariMain {
     height: unset;
-    padding: 5em 3em;
+  }
+
+  .container-main {
+    padding: 1em 3em 2em 3em;
   }
 
   p.Lyari-para,

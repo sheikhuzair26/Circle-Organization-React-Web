@@ -7,8 +7,8 @@
 
 .JourneySection {
   opacity: 0.9;
-  height: 150vh;
-  padding: 4em 0em;
+  height: 165vh;
+  padding: 0em 0em;
   background: #ee9ca7; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
@@ -81,7 +81,7 @@ p.slt-parra {
 
 @media screen and (max-width: 768px) {
   .JourneySection {
-    height: 190vh;
+    height: 210vh;
   }
 
   .slt-head {
@@ -131,6 +131,10 @@ p.slt-parra {
 }
 @media screen and (max-width: 375px) {
   .JourneySection {
+    height: 180vh;
+  }
+
+  .JourneySection {
     opacity: 0.7;
   }
   .journey-para {
@@ -140,7 +144,7 @@ p.slt-parra {
 
 @media screen and (max-width: 320px) {
   .JourneySection {
-    height: 215vh;
+    height: 225vh;
   }
   .JourneySection {
     opacity: 0.7;

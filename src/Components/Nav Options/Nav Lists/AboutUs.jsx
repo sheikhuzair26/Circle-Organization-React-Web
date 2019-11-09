@@ -8,11 +8,16 @@ import WomenEmpowerThree from "../../../Assets/Images/women3.jpg";
 import Rating from "../Nav Lists/RatingsComponent";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import Header from "../../Header";
+import Navigation from "../../Navigation";
 
 const AboutUs = () => {
   return (
     <div className="AboutMainSection">
+
       <div className="AboutSection">
+      <Header/>
+      <Navigation/>
         <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
           <Carousel>
             <Carousel.Item>

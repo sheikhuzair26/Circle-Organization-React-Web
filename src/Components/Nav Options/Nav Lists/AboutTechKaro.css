@@ -1,7 +1,7 @@
 .Container {
   background: white;
   opacity: 0.7;
-  padding-top: 3em;
+  padding-top: 0em;
   padding-bottom: 1em;
   display: flex;
   flex-direction: column;
@@ -56,18 +56,23 @@
   .slider-section {
     height: 62vh;
   }
+  h1 {
+    font-size: 31px;
+    padding-top: 20px;
+    text-align: start;
+  }
 }
 @media screen and (max-width: 320px) {
-  h1{
+  h1 {
     font-size: 27px;
   }
-  
+
   .ui-content {
     margin: 4em 0em 0em 0em;
+  }
+  .Container p,
+  .uit {
+    font-size: 17px;
+    font-weight: 500;
+  }
 }
-.Container p, .uit {
-  font-size: 17px;
-  font-weight: 500;
-}
-}
-

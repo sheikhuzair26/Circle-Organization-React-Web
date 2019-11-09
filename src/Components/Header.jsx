@@ -1,22 +1,25 @@
 import React, { Component } from "react";
 import "./Header.css";
 import logo from "./../Assets/Images/circleLogo.png";
-import sheloveslogo from "./../Assets/Images/sheloveslogo.png";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+  useRouteMatch
+} from "react-router-dom";
 
 class Header extends Component {
-
   render() {
     return (
       <div>
         <header>
           <div className="logo">
-            <img className="main-logo" src={logo} alt="Logo" />
+            <Link to={"/Home"}>
+              <img className="main-logo" src={logo} alt="Logo" />
+            </Link>
           </div>
-          <div className="sheLovesLogo">
-            {/* <img className="she" src={sheloveslogo} alt="Love" /> */}
-          </div>
-
-          <div className="navigation">{/* <i class="fas fa-bars"></i> */}</div>
         </header>
       </div>
     );

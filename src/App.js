@@ -68,6 +68,10 @@ class App extends Component {
             <Route path="/SltJourney">
               <SltJourney />
             </Route>
+            {/* Sent Back to Main Page Onclick Logo Reload */}
+            <Route exact path="/Home">
+              <Home />
+            </Route>
           </Switch>
         </div>
       </Router>
