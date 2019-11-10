@@ -13,7 +13,7 @@ const Lyari = () => {
         <Navigation />
         <div className="container-main">
           <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
-            <h1 className="Lyari-head">LYARIsda</h1>
+            <h1 className="Lyari-head">LYARI</h1>
           </ScrollAnimation>
           <p className="Lyari-para">
             <ScrollAnimation
