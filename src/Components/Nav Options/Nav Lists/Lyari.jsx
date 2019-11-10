@@ -42,21 +42,13 @@ const Lyari = () => {
           </p>
 
           <ul>
-            <li className="lyari-li">
-              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+            <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+              <li className="lyari-li">
                 Digital Marketing course at Lyari Girls Cafe
-              </ScrollAnimation>
-            </li>
-            <li className="lyari-li">
-              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-                4 month program
-              </ScrollAnimation>
-            </li>
-            <li className="lyari-li">
-              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-                Cohort of 48 girls
-              </ScrollAnimation>
-            </li>
+              </li>
+              <li className="lyari-li">4 month program</li>
+              <li className="lyari-li">Cohort of 48 girls</li>
+            </ScrollAnimation>
           </ul>
         </div>
       </div>
