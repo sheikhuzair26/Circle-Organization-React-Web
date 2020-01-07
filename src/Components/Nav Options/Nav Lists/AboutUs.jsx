@@ -14,10 +14,9 @@ import Navigation from "../../Navigation";
 const AboutUs = () => {
   return (
     <div className="AboutMainSection">
-
       <div className="AboutSection">
-      <Header/>
-      <Navigation/>
+        <Header />
+        <Navigation />
         <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
           <Carousel>
             <Carousel.Item>
