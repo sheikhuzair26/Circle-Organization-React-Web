@@ -7,4 +7,3 @@ In this Project I used React Js.
 - Paralex Background
 - Full Page Navigation
 
-# W.I.P
